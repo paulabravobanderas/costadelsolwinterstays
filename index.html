@@ -43,7 +43,8 @@ footer{font-size:.88rem}
 .features .work-feature{grid-column:1/-1;background:#edf2eb;border-color:#21483e}
 .location-map{display:block;width:100%;height:clamp(280px,42vw,420px);border:0;border-radius:10px;margin:20px 0 12px}
 #local-weather{margin-top:24px;padding:18px;background:#fffaf2;border:1px solid var(--line);border-radius:10px}#local-weather p{margin:8px 0 0}
-</style>
+.contact-icon{display:inline-grid;place-items:center;width:46px;height:46px;border:1px solid #ffffff85;border-radius:8px}.contact-icon:hover{background:#ffffff24}
+.contact-icon.brand-link{background:#fff}.contact-icon.brand-link:hover{background:#edf2eb}.contact-icon img.brand-mark{width:26px;height:26px;aspect-ratio:1;object-fit:contain;border-radius:0;background:none}</style>
 </head>
 <body>
 <header><div class="wrap"><span class="brand">Costa del Sol</span>
@@ -73,8 +74,8 @@ footer{font-size:.88rem}
 <section class="photo-zone"><h3 data-text="zone5">Beach and surroundings</h3><div class="gallery"><figure><a href="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg" data-alt="photo5_0" alt="Beach in daylight"></a><figcaption data-text="photo5_0">Beach in daylight</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg" data-alt="photo5_1" alt="Promenade at sunset"></a><figcaption data-text="photo5_1">Promenade at sunset</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg" data-alt="beachRoute" alt="1 min down to the beach"></a><figcaption data-text="beachRoute">1 min down to the beach</figcaption></figure></div></section><section class="photo-zone"><h3 data-text="videoTitle">Videos</h3><div class="gallery"><figure><video controls playsinline preload="metadata" aria-labelledby="video0"><source src="media-benajarafe/20240503_092250.mp4" type="video/mp4"></video><figcaption id="video0" data-text="video0">Video 1</figcaption></figure><figure><video controls playsinline preload="metadata" aria-labelledby="video1"><source src="media-benajarafe/20260331_124504.mp4" type="video/mp4"></video><figcaption id="video1" data-text="video1">Video 2</figcaption></figure></div></section></section>
 <section class="wrap section" id="location"><h2 data-text="locationTitle">Location</h2><p data-text="villageWalk">The village centre is less than 10 minutes away on foot along the coastal path. There you’ll find a pharmacy, a bakery, a fishmonger, a supermarket and restaurants.</p><p data-text="malagaDrive">Málaga city centre is about 20 minutes away by car.</p><p data-text="bikes">Bicycles are available.</p><iframe class="location-map" title="Approximate location in Benajarafe" loading="lazy" src="https://maps.google.com/maps?q=Benajarafe%2C%20M%C3%A1laga&amp;z=14&amp;output=embed"></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Benajarafe%2C%20M%C3%A1laga" data-text="mapLink">Open map</a><section id="local-weather" aria-labelledby="weather-heading"><h3 id="weather-heading" data-text="weatherTitle">Weather in Benajarafe</h3><a class="weatherwidget-io" href="https://forecast7.com/en/36d72n4d20/benajarafe/" data-label_1="BENAJARAFE" data-days="5" data-theme="pure">Benajarafe</a><p><a href="https://www.meteosat.com/tiempo/malaga/velez-malaga/benajarafe/" data-text="weatherLink">Forecast</a></p></section></section>
 <section class="contact section" id="contact"><div class="wrap">
-<h2 data-text="contact">Plan your stay</h2><p data-text="contactText">Tell Paula your dates and how many people are coming. Ask about availability and rates for your stay.</p><p data-text="stayOptions">Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.</p><p><a href="https://www.airbnb.es/rooms/1629619211544969269" data-text="airbnbBooking">View on Airbnb</a></p>
-<div class="actions"><a id="whatsapp" class="primary" href="https://wa.me/34627464300">WhatsApp</a><a id="email" href="mailto:Paula.bravobanderas@gmail.com" data-text="email">Email Paula</a></div>
+<h2 data-text="contact">Plan your stay</h2><p data-text="contactText">Ask about availability and rates for your stay.</p><p data-text="stayOptions">Short stays can be booked through Airbnb. For medium and long stays, ask about discounted packages through WhatsApp or e-mail.</p>
+<div class="actions"><a id="whatsapp" class="contact-icon brand-link" href="https://wa.me/34627464300" aria-label="WhatsApp" title="WhatsApp"><img class="brand-mark" width="26" height="26" alt="" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMjVEMzY2IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+V2hhdHNBcHA8L3RpdGxlPjxwYXRoIGQ9Ik0xNy40NzIgMTQuMzgyYy0uMjk3LS4xNDktMS43NTgtLjg2Ny0yLjAzLS45NjctLjI3My0uMDk5LS40NzEtLjE0OC0uNjcuMTUtLjE5Ny4yOTctLjc2Ny45NjYtLjk0IDEuMTY0LS4xNzMuMTk5LS4zNDcuMjIzLS42NDQuMDc1LS4yOTctLjE1LTEuMjU1LS40NjMtMi4zOS0xLjQ3NS0uODgzLS43ODgtMS40OC0xLjc2MS0xLjY1My0yLjA1OS0uMTczLS4yOTctLjAxOC0uNDU4LjEzLS42MDYuMTM0LS4xMzMuMjk4LS4zNDcuNDQ2LS41Mi4xNDktLjE3NC4xOTgtLjI5OC4yOTgtLjQ5Ny4wOTktLjE5OC4wNS0uMzcxLS4wMjUtLjUyLS4wNzUtLjE0OS0uNjY5LTEuNjEyLS45MTYtMi4yMDctLjI0Mi0uNTc5LS40ODctLjUtLjY2OS0uNTEtLjE3My0uMDA4LS4zNzEtLjAxLS41Ny0uMDEtLjE5OCAwLS41Mi4wNzQtLjc5Mi4zNzItLjI3Mi4yOTctMS4wNCAxLjAxNi0xLjA0IDIuNDc5IDAgMS40NjIgMS4wNjUgMi44NzUgMS4yMTMgMy4wNzQuMTQ5LjE5OCAyLjA5NiAzLjIgNS4wNzcgNC40ODcuNzA5LjMwNiAxLjI2Mi40ODkgMS42OTQuNjI1LjcxMi4yMjcgMS4zNi4xOTUgMS44NzEuMTE4LjU3MS0uMDg1IDEuNzU4LS43MTkgMi4wMDYtMS40MTMuMjQ4LS42OTQuMjQ4LTEuMjg5LjE3My0xLjQxMy0uMDc0LS4xMjQtLjI3Mi0uMTk4LS41Ny0uMzQ3bS01LjQyMSA3LjQwM2gtLjAwNGE5Ljg3IDkuODcgMCAwMS01LjAzMS0xLjM3OGwtLjM2MS0uMjE0LTMuNzQxLjk4Mi45OTgtMy42NDgtLjIzNS0uMzc0YTkuODYgOS44NiAwIDAxLTEuNTEtNS4yNmMuMDAxLTUuNDUgNC40MzYtOS44ODQgOS44ODgtOS44ODQgMi42NCAwIDUuMTIyIDEuMDMgNi45ODggMi44OThhOS44MjUgOS44MjUgMCAwMTIuODkzIDYuOTk0Yy0uMDAzIDUuNDUtNC40MzcgOS44ODQtOS44ODUgOS44ODRtOC40MTMtMTguMjk3QTExLjgxNSAxMS44MTUgMCAwMDEyLjA1IDBDNS40OTUgMCAuMTYgNS4zMzUuMTU3IDExLjg5MmMwIDIuMDk2LjU0NyA0LjE0MiAxLjU4OCA1Ljk0NUwuMDU3IDI0bDYuMzA1LTEuNjU0YTExLjg4MiAxMS44ODIgMCAwMDUuNjgzIDEuNDQ4aC4wMDVjNi41NTQgMCAxMS44OS01LjMzNSAxMS44OTMtMTEuODkzYTExLjgyMSAxMS44MjEgMCAwMC0zLjQ4LTguNDEzWiIvPjwvc3ZnPg=="></a><a id="email" href="mailto:Paula.bravobanderas@gmail.com" class="contact-icon" data-label="email" aria-label="Email" title="Email"><svg aria-hidden="true" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a><a href="https://www.airbnb.es/rooms/1629619211544969269" class="contact-icon brand-link" data-label="airbnbBooking" aria-label="View on Airbnb" title="View on Airbnb"><img class="brand-mark" width="26" height="26" alt="" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkYzODVDIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QWlyYm5iPC90aXRsZT48cGF0aCBkPSJNMTIuMDAxIDE4LjI3NWMtMS4zNTMtMS42OTctMi4xNDgtMy4xODQtMi40MTMtNC40NTctLjI2My0xLjAyNy0uMTYtMS44NDguMjkxLTIuNDY1LjQ3Ny0uNzEgMS4xODgtMS4wNTYgMi4xMjEtMS4wNTZzMS42NDMuMzQ1IDIuMTIgMS4wNjNjLjQ0Ni42MS41NTggMS40MzIuMjg2IDIuNDY1LS4yOTEgMS4yOTgtMS4wODUgMi43ODUtMi40MTIgNC40NTh6bTkuNjAxIDEuMTRjLS4xODUgMS4yNDYtMS4wMzQgMi4yOC0yLjIgMi43ODMtMi4yNTMuOTgtNC40ODMtLjU4My02LjM5Mi0yLjcwNCAzLjE1Ny0zLjk1MSAzLjc0LTcuMDI4IDIuMzg1LTkuMDE4LS43OTUtMS4xNC0xLjkzMy0xLjY5NS0zLjM5NC0xLjY5NS0yLjk0NCAwLTQuNTYzIDIuNDktMy45MjcgNS4zODIuMzcgMS41NjUgMS4zNTIgMy4zNDMgMi45MTcgNS4zMzItLjk4IDEuMDg1LTEuOTEgMS44NTYtMi43MzIgMi4zMzMtLjYzNi4zNDQtMS4yNDUuNTU4LTEuODI4LjYwOS0yLjY3OS4zOTktNC43NzgtMi4yLTMuODI1LTQuODguMTMyLS4zNDUuMzk1LS45OC44NDUtMS45NjFsLjAyNS0uMDUzYzEuNDY0LTMuMTc4IDMuMjQyLTYuNzkgNS4yODUtMTAuNzk1bC4wNTMtLjEzMi41OC0xLjExNmMuNDUtLjgyMi42MzUtMS4xOSAxLjM1MS0xLjY0My4zNDYtLjIxLjc3LS4zMTUgMS4yNDYtLjMxNS45NTQgMCAxLjY5OC41NTggMi4wMTYgMS4wMDcuMTU4LjIzOS4zNDUuNTU3LjU4Mi45NTNsLjU1OCAxLjA4OS4wOC4xNTljMi4wNDEgNC4wMDQgMy44MjEgNy42MDggNS4yNzkgMTAuNzk0bC4wMjYuMDI1LjUzMyAxLjIyLjMxOC43NjRjLjI0My42MTMuMjk0IDEuMjIyLjIxMyAxLjg1OHptMS4yMi0yLjM5Yy0uMTg2LS41ODMtLjUwNS0xLjI3MS0uOS0yLjA5NHYtLjAzYy0xLjg4OS00LjAwNi0zLjY0Mi03LjYwOC01LjMwNy0xMC44NDRsLS4xMTEtLjE2M0MxNS4zMTcgMS40NjEgMTQuNDY4IDAgMTIuMDAxIDBjLTIuNDQgMC0zLjQ3NiAxLjY5NS00LjUzNSAzLjg5OGwtLjA4MS4xNmMtMS42NjkgMy4yMzYtMy40MjEgNi44NDMtNS4zMDMgMTAuODQ3di4wNTNsLS41NTkgMS4yMmMtLjIxLjUwNC0uMzE3Ljc2OC0uMzQ1Ljg0N0MtLjE3MiAyMC43NCAyLjYxMSAyNCA1Ljk4IDI0Yy4wMjcgMCAuMTMyIDAgLjI2NS0uMDI3aC4zNzJjMS43NS0uMjEzIDMuNTU0LTEuMzI1IDUuMzg0LTMuMzE3IDEuODI5IDEuOTg5IDMuNjM1IDMuMTA0IDUuMzgyIDMuMzE3aC4zNzJjLjEzMy4wMjcuMjM5LjAyNy4yNjUuMDI3IDMuMzcuMDAzIDYuMTUyLTMuMjYxIDQuODAyLTYuOTc1eiIvPjwvc3ZnPg=="></a></div>
 </div></section>
 </main>
 <footer><div class="wrap"><span>Costa del Sol · Benajarafe, Málaga</span><span data-text="season">Winter stays</span></div></footer>
@@ -97,8 +98,8 @@ const translations = {
     "beachText": "Benajarafe beach is a one-minute walk from the house.",
     "photos": "The house in photos",
     "contact": "Plan your stay",
-    "contactText": "Tell Paula your dates and how many people are coming. Ask about availability and rates for your stay.",
-    "email": "Email Paula",
+    "contactText": "Ask about availability and rates for your stay.",
+    "email": "Email",
     "language": "Choose a language",
     "message": "Hi Paula, I’m interested in a winter stay in Benajarafe. Could you tell me about availability and rates?",
     "zone0": "Exterior",
@@ -142,7 +143,7 @@ const translations = {
     "mapTitle": "Approximate location in Benajarafe",
     "mapLink": "Open map",
     "malagaDrive": "Málaga city centre is about 20 minutes away by car.",
-    "stayOptions": "Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.",
+    "stayOptions": "Short stays can be booked through Airbnb. For medium and long stays, ask about discounted packages through WhatsApp or e-mail.",
     "airbnbBooking": "View on Airbnb",
     "weatherTitle": "Weather in Benajarafe",
     "weatherLink": "Forecast"
@@ -164,8 +165,8 @@ const translations = {
     "beachText": "La playa de Benajarafe está a un minuto andando desde la casa.",
     "photos": "La casa en fotos",
     "contact": "Organiza tu estancia",
-    "contactText": "Cuéntale a Paula qué fechas te interesan y cuántas personas sois. Pregúntale por disponibilidad y precio para tu estancia.",
-    "email": "Escribe a Paula",
+    "contactText": "Pregunta por disponibilidad y precio para tu estancia.",
+    "email": "Correo electrónico",
     "language": "Elige un idioma",
     "message": "Hola, Paula. Me interesa una estancia de invierno en Benajarafe. ¿Me puedes informar sobre disponibilidad y precios?",
     "zone0": "Exterior",
@@ -209,7 +210,7 @@ const translations = {
     "mapTitle": "Ubicación aproximada en Benajarafe",
     "mapLink": "Abrir mapa",
     "malagaDrive": "El centro de Málaga está a unos 20 minutos en coche.",
-    "stayOptions": "Para estancias cortas, puedes reservar la casa en Airbnb. Para estancias medias y largas, consulta con Paula los paquetes con descuento.",
+    "stayOptions": "Para estancias cortas, puedes reservar la casa en Airbnb. Para estancias medias y largas, consulta por WhatsApp o correo electrónico los paquetes con descuento.",
     "airbnbBooking": "Ver en Airbnb",
     "weatherTitle": "El tiempo en Benajarafe",
     "weatherLink": "Previsión"
@@ -231,8 +232,8 @@ const translations = {
     "beachText": "Det tar en minut att gå från huset till stranden i Benajarafe.",
     "photos": "Huset i bilder",
     "contact": "Planera din vistelse",
-    "contactText": "Berätta för Paula vilka datum du är intresserad av och hur många ni är. Fråga om tillgänglighet och pris för er vistelse.",
-    "email": "Mejla Paula",
+    "contactText": "Fråga om tillgänglighet och pris för er vistelse.",
+    "email": "E-post",
     "language": "Välj språk",
     "message": "Hej Paula! Jag är intresserad av en vintervistelse i Benajarafe. Kan du berätta vad som är ledigt och vad det kostar?",
     "zone0": "Utomhus",
@@ -276,7 +277,7 @@ const translations = {
     "mapTitle": "Ungefärligt läge i Benajarafe",
     "mapLink": "Öppna kartan",
     "malagaDrive": "Det tar ungefär 20 minuter med bil till centrala Málaga.",
-    "stayOptions": "Kortare vistelser kan bokas via Airbnb. Fråga Paula om rabatterade paket för medellånga och längre vistelser.",
+    "stayOptions": "Kortare vistelser kan bokas via Airbnb. Fråga via WhatsApp eller e-post om rabatterade paket för medellånga och längre vistelser.",
     "airbnbBooking": "Visa på Airbnb",
     "weatherTitle": "Vädret i Benajarafe",
     "weatherLink": "Prognos"
@@ -298,8 +299,8 @@ const translations = {
     "beachText": "Det tar ett minutt å gå fra huset til stranden i Benajarafe.",
     "photos": "Huset i bilder",
     "contact": "Planlegg oppholdet",
-    "contactText": "Fortell Paula hvilke datoer du ønsker og hvor mange dere er. Spør om ledige datoer og pris for oppholdet.",
-    "email": "Send e-post til Paula",
+    "contactText": "Spør om ledige datoer og pris for oppholdet.",
+    "email": "E-post",
     "language": "Velg språk",
     "message": "Hei Paula! Jeg er interessert i et vinteropphold i Benajarafe. Kan du si litt om ledige datoer og priser?",
     "zone0": "Uteområder",
@@ -343,7 +344,7 @@ const translations = {
     "mapTitle": "Omtrentlig beliggenhet i Benajarafe",
     "mapLink": "Åpne kartet",
     "malagaDrive": "Det tar omtrent 20 minutter å kjøre til Málaga sentrum.",
-    "stayOptions": "Korte opphold kan bestilles via Airbnb. Spør Paula om rabatterte pakker for mellomlange og lengre opphold.",
+    "stayOptions": "Korte opphold kan bestilles via Airbnb. Spør via WhatsApp eller e-post om rabatterte pakker for mellomlange og lengre opphold.",
     "airbnbBooking": "Se på Airbnb",
     "weatherTitle": "Været i Benajarafe",
     "weatherLink": "Værvarsel"
@@ -365,8 +366,8 @@ const translations = {
     "beachText": "Der er ét minuts gang fra huset til stranden i Benajarafe.",
     "photos": "Huset i billeder",
     "contact": "Planlæg dit ophold",
-    "contactText": "Fortæl Paula, hvilke datoer du overvejer, og hvor mange I er. Spørg om ledige datoer og pris for opholdet.",
-    "email": "Send en mail til Paula",
+    "contactText": "Spørg om ledige datoer og pris for opholdet.",
+    "email": "E-mail",
     "language": "Vælg sprog",
     "message": "Hej Paula! Jeg er interesseret i et vinterophold i Benajarafe. Kan du fortælle mig om ledige datoer og priser?",
     "zone0": "Udendørs",
@@ -410,7 +411,7 @@ const translations = {
     "mapTitle": "Omtrentlig placering i Benajarafe",
     "mapLink": "Åbn kortet",
     "malagaDrive": "Der er cirka 20 minutters kørsel til centrum af Málaga.",
-    "stayOptions": "Korte ophold kan bookes via Airbnb. Spørg Paula om pakkeløsninger med rabat til mellemlange og længere ophold.",
+    "stayOptions": "Korte ophold kan bookes via Airbnb. Spørg via WhatsApp eller e-mail om pakkeløsninger med rabat til mellemlange og længere ophold.",
     "airbnbBooking": "Se på Airbnb",
     "weatherTitle": "Vejret i Benajarafe",
     "weatherLink": "Vejrudsigt"
@@ -430,6 +431,10 @@ function setLanguage(language) {
   document.querySelectorAll('[data-alt]').forEach(image => { image.alt = copy[image.dataset.alt]; });
   languageButtons.forEach(button => {
     button.setAttribute('aria-pressed', String(button.lang === language));
+  });
+  document.querySelectorAll('[data-label]').forEach(link => {
+    link.title = copy[link.dataset.label];
+    link.setAttribute('aria-label', link.title);
   });
   const message = encodeURIComponent(copy.message);
   document.querySelector('#whatsapp').href = 'https://wa.me/34627464300?text=' + message;
