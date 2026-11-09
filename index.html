@@ -42,6 +42,7 @@ footer{font-size:.88rem}
 .winter-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:24px}#winter p{max-width:70ch}@media(max-width:720px){.winter-details{grid-template-columns:1fr;gap:12px}}
 .features .work-feature{grid-column:1/-1;background:#edf2eb;border-color:#21483e}
 .location-map{display:block;width:100%;height:clamp(280px,42vw,420px);border:0;border-radius:10px;margin:20px 0 12px}
+#local-weather{margin-top:24px;padding:18px;background:#fffaf2;border:1px solid var(--line);border-radius:10px}#local-weather p{margin:8px 0 0}
 </style>
 </head>
 <body>
@@ -70,7 +71,7 @@ footer{font-size:.88rem}
 <section class="photo-zone"><h3 data-text="zone3">Kitchen</h3><div class="gallery"><figure><a href="media-benajarafe/04-cocina/01-cocina-y-mesa.png"><img loading="lazy" src="media-benajarafe/04-cocina/01-cocina-y-mesa.png" data-alt="photo3_0" alt="Kitchen and dining table"></a><figcaption data-text="photo3_0">Kitchen and dining table</figcaption></figure><figure><a href="media-benajarafe/04-cocina/02-cocina-con-nevera.png"><img loading="lazy" src="media-benajarafe/04-cocina/02-cocina-con-nevera.png" data-alt="kitchenFridge" alt="Kitchen and fridge"></a><figcaption data-text="kitchenFridge">Kitchen and fridge</figcaption></figure></div></section>
 <section class="photo-zone"><h3 data-text="zone4">Bathroom</h3><div class="gallery"><figure><a href="media-benajarafe/05-bano/01-lavabo.png"><img loading="lazy" src="media-benajarafe/05-bano/01-lavabo.png" data-alt="photo4_0" alt="Bathroom sink"></a><figcaption data-text="photo4_0">Bathroom sink</figcaption></figure><figure><a href="media-benajarafe/05-bano/02-ducha.jpg"><img loading="lazy" src="media-benajarafe/05-bano/02-ducha.jpg" data-alt="photo4_1" alt="Indoor shower"></a><figcaption data-text="photo4_1">Indoor shower</figcaption></figure></div></section>
 <section class="photo-zone"><h3 data-text="zone5">Beach and surroundings</h3><div class="gallery"><figure><a href="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg" data-alt="photo5_0" alt="Beach in daylight"></a><figcaption data-text="photo5_0">Beach in daylight</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg" data-alt="photo5_1" alt="Promenade at sunset"></a><figcaption data-text="photo5_1">Promenade at sunset</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg" data-alt="beachRoute" alt="1 min down to the beach"></a><figcaption data-text="beachRoute">1 min down to the beach</figcaption></figure></div></section><section class="photo-zone"><h3 data-text="videoTitle">Videos</h3><div class="gallery"><figure><video controls playsinline preload="metadata" aria-labelledby="video0"><source src="media-benajarafe/20240503_092250.mp4" type="video/mp4"></video><figcaption id="video0" data-text="video0">Video 1</figcaption></figure><figure><video controls playsinline preload="metadata" aria-labelledby="video1"><source src="media-benajarafe/20260331_124504.mp4" type="video/mp4"></video><figcaption id="video1" data-text="video1">Video 2</figcaption></figure></div></section></section>
-<section class="wrap section" id="location"><h2 data-text="locationTitle">Location</h2><p data-text="villageWalk">The village centre is less than 10 minutes away on foot along the coastal path. There you’ll find a pharmacy, a bakery, a fishmonger, a supermarket and restaurants.</p><p data-text="malagaDrive">Málaga city centre is about 20 minutes away by car.</p><p data-text="bikes">Bicycles are available.</p><iframe class="location-map" title="Approximate location in Benajarafe" loading="lazy" src="https://maps.google.com/maps?q=Benajarafe%2C%20M%C3%A1laga&amp;z=14&amp;output=embed"></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Benajarafe%2C%20M%C3%A1laga" data-text="mapLink">Open map</a></section>
+<section class="wrap section" id="location"><h2 data-text="locationTitle">Location</h2><p data-text="villageWalk">The village centre is less than 10 minutes away on foot along the coastal path. There you’ll find a pharmacy, a bakery, a fishmonger, a supermarket and restaurants.</p><p data-text="malagaDrive">Málaga city centre is about 20 minutes away by car.</p><p data-text="bikes">Bicycles are available.</p><iframe class="location-map" title="Approximate location in Benajarafe" loading="lazy" src="https://maps.google.com/maps?q=Benajarafe%2C%20M%C3%A1laga&amp;z=14&amp;output=embed"></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Benajarafe%2C%20M%C3%A1laga" data-text="mapLink">Open map</a><section id="local-weather" aria-labelledby="weather-heading"><h3 id="weather-heading" data-text="weatherTitle">Weather in Benajarafe</h3><a class="weatherwidget-io" href="https://forecast7.com/en/36d72n4d20/benajarafe/" data-label_1="BENAJARAFE" data-days="5" data-theme="pure">Benajarafe</a><p><a href="https://www.meteosat.com/tiempo/malaga/velez-malaga/benajarafe/" data-text="weatherLink">Forecast</a></p></section></section>
 <section class="contact section" id="contact"><div class="wrap">
 <h2 data-text="contact">Plan your stay</h2><p data-text="contactText">Tell Paula your dates and how many people are coming. Ask about availability and rates for your stay.</p><p data-text="stayOptions">Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.</p><p><a href="https://www.airbnb.es/rooms/1629619211544969269" data-text="airbnbBooking">View on Airbnb</a></p>
 <div class="actions"><a id="whatsapp" class="primary" href="https://wa.me/34627464300">WhatsApp</a><a id="email" href="mailto:Paula.bravobanderas@gmail.com" data-text="email">Email Paula</a></div>
@@ -142,7 +143,9 @@ const translations = {
     "mapLink": "Open map",
     "malagaDrive": "Málaga city centre is about 20 minutes away by car.",
     "stayOptions": "Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.",
-    "airbnbBooking": "View on Airbnb"
+    "airbnbBooking": "View on Airbnb",
+    "weatherTitle": "Weather in Benajarafe",
+    "weatherLink": "Forecast"
   },
   "es": {
     "season": "Estancias de invierno",
@@ -207,7 +210,9 @@ const translations = {
     "mapLink": "Abrir mapa",
     "malagaDrive": "El centro de Málaga está a unos 20 minutos en coche.",
     "stayOptions": "Para estancias cortas, puedes reservar la casa en Airbnb. Para estancias medias y largas, consulta con Paula los paquetes con descuento.",
-    "airbnbBooking": "Ver en Airbnb"
+    "airbnbBooking": "Ver en Airbnb",
+    "weatherTitle": "El tiempo en Benajarafe",
+    "weatherLink": "Previsión"
   },
   "sv": {
     "season": "Vinterboende",
@@ -272,7 +277,9 @@ const translations = {
     "mapLink": "Öppna kartan",
     "malagaDrive": "Det tar ungefär 20 minuter med bil till centrala Málaga.",
     "stayOptions": "Kortare vistelser kan bokas via Airbnb. Fråga Paula om rabatterade paket för medellånga och längre vistelser.",
-    "airbnbBooking": "Visa på Airbnb"
+    "airbnbBooking": "Visa på Airbnb",
+    "weatherTitle": "Vädret i Benajarafe",
+    "weatherLink": "Prognos"
   },
   "nb": {
     "season": "Vinteropphold",
@@ -337,7 +344,9 @@ const translations = {
     "mapLink": "Åpne kartet",
     "malagaDrive": "Det tar omtrent 20 minutter å kjøre til Málaga sentrum.",
     "stayOptions": "Korte opphold kan bestilles via Airbnb. Spør Paula om rabatterte pakker for mellomlange og lengre opphold.",
-    "airbnbBooking": "Se på Airbnb"
+    "airbnbBooking": "Se på Airbnb",
+    "weatherTitle": "Været i Benajarafe",
+    "weatherLink": "Værvarsel"
   },
   "da": {
     "season": "Vinterophold",
@@ -402,7 +411,9 @@ const translations = {
     "mapLink": "Åbn kortet",
     "malagaDrive": "Der er cirka 20 minutters kørsel til centrum af Málaga.",
     "stayOptions": "Korte ophold kan bookes via Airbnb. Spørg Paula om pakkeløsninger med rabat til mellemlange og længere ophold.",
-    "airbnbBooking": "Se på Airbnb"
+    "airbnbBooking": "Se på Airbnb",
+    "weatherTitle": "Vejret i Benajarafe",
+    "weatherLink": "Vejrudsigt"
   }
 };
 const languageButtons = document.querySelectorAll('nav button');
@@ -430,5 +441,6 @@ languageButtons.forEach(button => {
 });
 setLanguage('en');
 </script>
+<script src="https://weatherwidget.io/js/widget.min.js" async></script>
 </body>
 </html>
