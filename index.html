@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A detached house for your exclusive use in Benajarafe, Málaga. The long-stay winter rental covers the main house for 4–5 guests.">
+<title>Costa del Sol · Winter stays</title>
+<style>
+:root{color-scheme:light;--ink:#192d29;--accent:#98442d;--paper:#f7f4ec;--line:#dcd6c8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+header .wrap,footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;padding:16px 0}
+header{border-bottom:1px solid var(--line)}
+.brand{font:700 1.45rem Georgia,serif}
+nav{display:flex;flex-wrap:wrap;gap:5px}
+button{font:inherit;color:inherit;background:transparent;border:1px solid transparent;border-radius:6px;padding:7px;cursor:pointer}
+button[aria-pressed=true]{background:#fff;border-color:var(--line);font-weight:700}
+.flag{display:inline-block;width:19px;height:13px;vertical-align:baseline;margin-right:4px;background:var(--flag);border:1px solid #0002}
+:focus-visible{outline:3px solid #146ca0;outline-offset:4px}
+.hero{display:grid;grid-template-columns:1fr 1.12fr;gap:clamp(22px,5vw,70px);align-items:center;padding:clamp(30px,6vw,78px) 0}
+h1,h2,h3,p{margin:0 0 14px}
+h1,h2{font-family:Georgia,serif;line-height:1.06;font-weight:500;text-wrap:balance}
+h1{font-size:clamp(2.6rem,6vw,5.1rem)}
+h2{font-size:clamp(2rem,4vw,3.3rem)}
+.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:750;color:var(--accent)}
+a{color:var(--accent);text-underline-offset:4px}
+.actions{display:flex;gap:12px 20px;flex-wrap:wrap;align-items:center;margin-top:22px}
+.primary{display:inline-block;padding:10px 18px;border-radius:6px;background:var(--accent);color:white;text-decoration:none;font-weight:650}
+figure{margin:0}
+img{display:block;width:100%;object-fit:cover;aspect-ratio:4/3;border-radius:10px;background:#e2ddd0;color:var(--ink)}
+figcaption{font-size:.84rem;margin-top:8px}
+.section{padding:clamp(30px,5vw,62px) 0;border-top:1px solid var(--line)}
+.features,.gallery{display:grid;gap:18px;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:23px}
+.features article{border-top:3px solid #b87358;padding:16px;background:#fffaf2}
+.gallery{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:13px}
+.contact{background:#21483e;color:#fff}
+.contact a:not(.primary){color:white;overflow-wrap:anywhere}
+footer{font-size:.88rem}
+@media(max-width:720px){.hero,.features{grid-template-columns:1fr}.hero img{aspect-ratio:16/10}}
+.photo-zone{margin-top:32px}.photo-zone .gallery{margin-top:12px}.gallery a{display:block}.gallery img{aspect-ratio:4/3}.gallery video{display:block;width:100%;aspect-ratio:16/9;background:#192d29;border-radius:10px}@media(max-width:520px){.gallery{grid-template-columns:1fr}}
+.winter-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:24px}#winter p{max-width:70ch}@media(max-width:720px){.winter-details{grid-template-columns:1fr;gap:12px}}
+.features .work-feature{grid-column:1/-1;background:#edf2eb;border-color:#21483e}
+.location-map{display:block;width:100%;height:clamp(280px,42vw,420px);border:0;border-radius:10px;margin:20px 0 12px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><span class="brand">Costa del Sol</span>
+<nav aria-label="Choose a language">
+<button type="button" lang="en" aria-pressed="true"><span class="flag" aria-hidden="true" style="--flag:linear-gradient(0deg,transparent 38%,#cf233e 38% 62%,transparent 62%),linear-gradient(90deg,transparent 42%,#cf233e 42% 58%,transparent 58%),linear-gradient(0deg,transparent 28%,white 28% 72%,transparent 72%),linear-gradient(90deg,transparent 35%,white 35% 65%,transparent 65%),#224477"></span>English</button>
+<button type="button" lang="es" aria-pressed="false"><span class="flag" aria-hidden="true" style="--flag:linear-gradient(#b61726 25%,#ffc400 25% 75%,#b61726 75%)"></span>Español</button>
+<button type="button" lang="sv" aria-pressed="false"><span class="flag" aria-hidden="true" style="--flag:linear-gradient(0deg,transparent 42%,#ffcd00 42% 58%,transparent 58%),linear-gradient(90deg,transparent 29%,#ffcd00 29% 41%,transparent 41%),#006aa7"></span>Svenska</button>
+<button type="button" lang="nb" aria-pressed="false"><span class="flag" aria-hidden="true" style="--flag:linear-gradient(0deg,transparent 44%,#17365f 44% 56%,transparent 56%),linear-gradient(90deg,transparent 31%,#17365f 31% 39%,transparent 39%),linear-gradient(0deg,transparent 35%,white 35% 65%,transparent 65%),linear-gradient(90deg,transparent 25%,white 25% 45%,transparent 45%),#ba0c2f"></span>Norsk</button>
+<button type="button" lang="da" aria-pressed="false"><span class="flag" aria-hidden="true" style="--flag:linear-gradient(0deg,transparent 43%,white 43% 57%,transparent 57%),linear-gradient(90deg,transparent 31%,white 31% 41%,transparent 41%),#c60c30"></span>Dansk</button>
+</nav></div></header>
+<main>
+<section class="hero wrap">
+<div><p class="eyebrow">Benajarafe · Málaga</p><p data-text="months">October to May</p><h1 data-text="title">Winter by the Mediterranean</h1><p data-text="intro">A detached house for your exclusive use in Benajarafe, Málaga. The long-stay winter rental covers the main house for 4–5 guests.</p>
+<div class="actions"><a class="primary" href="#contact" data-text="dates">Ask about your dates</a><a href="#house" data-text="explore">Explore the house</a></div></div>
+<figure><img src="media-benajarafe/01-exterior/01-piscina-de-dia.png" data-alt="photo0_0" alt="Pool in daylight"></figure>
+</section>
+<section class="wrap section" id="winter"><h2 data-text="winterTitle">A winter in Málaga</h2><p data-text="winterIntro">Spend a few weeks or a few months in Benajarafe. The Costa del Sol averages 325 days of sunshine a year. Start the day with a walk along the seafront, have lunch on the covered terrace and light the fireplace when the evening turns cool. Benajarafe is a small, welcoming village with all the everyday services you need.</p><div class="winter-details"><article><h3 data-text="workTitle">Working from Benajarafe</h3><p data-text="workIntro">The separate study has fibre internet for remote work and two desks, each with two monitors and an office chair. Just plug in your laptop.</p></article><article><h3 data-text="weekendTitle">Beyond the working week</h3><p data-text="weekendIntro">Spend a day in Torre del Mar, the old town of Vélez-Málaga, Frigiliana or Nerja.</p></article></div></section>
+<section class="wrap section" id="house">
+<p class="eyebrow" data-text="house">The main house</p><h2 data-text="home">Make yourself at home</h2><p data-text="houseLayout">The main house has three bedrooms, one set up as an office. There is one bathroom on each floor and a third by the pool.</p>
+<div class="features"><article><h3 data-text="heat">Radiators and a fireplace</h3><p data-text="heatText">Come home to radiator heating and a fireplace after a walk by the sea. The house has solar panels.</p></article><article><h3 data-text="pool">Pool</h3><p data-text="poolText">Take a break outside by the pool.</p></article><article><h3 data-text="beach">Beach nearby</h3><p data-text="beachText">Benajarafe beach is a one-minute walk from the house.</p></article><article class="work-feature"><h3 data-text="workTitle">Working from Benajarafe</h3><p data-text="workIntro">The separate study has fibre internet for remote work and two desks, each with two monitors and an office chair. Just plug in your laptop.</p></article></div>
+</section>
+<section class="wrap section" id="photos"><h2 data-text="photos">The house in photos</h2><section class="photo-zone"><h3 data-text="zone0">Exterior</h3><div class="gallery"><figure><a href="media-benajarafe/01-exterior/01-piscina-de-dia.png"><img loading="lazy" src="media-benajarafe/01-exterior/01-piscina-de-dia.png" data-alt="photo0_0" alt="Pool in daylight"></a><figcaption data-text="photo0_0">Pool in daylight</figcaption></figure><figure><a href="media-benajarafe/01-exterior/02-porche-comedor.png"><img loading="lazy" src="media-benajarafe/01-exterior/02-porche-comedor.png" data-alt="photo0_1" alt="Covered dining terrace"></a><figcaption data-text="photo0_1">Covered dining terrace</figcaption></figure><figure><a href="media-benajarafe/01-exterior/03-fachada-y-piscina.png"><img loading="lazy" src="media-benajarafe/01-exterior/03-fachada-y-piscina.png" data-alt="photo0_2" alt="House and pool"></a><figcaption data-text="photo0_2">House and pool</figcaption></figure><figure><a href="media-benajarafe/01-exterior/04-zona-de-tumbonas.png"><img loading="lazy" src="media-benajarafe/01-exterior/04-zona-de-tumbonas.png" data-alt="photo0_3" alt="Sun loungers"></a><figcaption data-text="photo0_3">Sun loungers</figcaption></figure><figure><a href="media-benajarafe/01-exterior/05-ducha-exterior.jpg"><img loading="lazy" src="media-benajarafe/01-exterior/05-ducha-exterior.jpg" data-alt="photo0_4" alt="Outdoor shower"></a><figcaption data-text="photo0_4">Outdoor shower</figcaption></figure><figure><a href="media-benajarafe/01-exterior/06-porche-delantero-noche.jpg"><img loading="lazy" src="media-benajarafe/01-exterior/06-porche-delantero-noche.jpg" data-alt="porchNight" alt="Front porch at night"></a><figcaption data-text="porchNight">Front porch at night</figcaption></figure><figure><a href="media-benajarafe/01-exterior/07-piscina-noche.jpg"><img loading="lazy" src="media-benajarafe/01-exterior/07-piscina-noche.jpg" data-alt="poolNight" alt="Pool at night"></a><figcaption data-text="poolNight">Pool at night</figcaption></figure></div></section>
+<section class="photo-zone"><h3 data-text="zone1">Living room</h3><div class="gallery"><figure><a href="media-benajarafe/02-salon/01-salon-con-chimenea.png"><img loading="lazy" src="media-benajarafe/02-salon/01-salon-con-chimenea.png" data-alt="photo1_0" alt="Living room with fireplace"></a><figcaption data-text="photo1_0">Living room with fireplace</figcaption></figure><figure><a href="media-benajarafe/02-salon/02-detalle-chimenea.jpg"><img loading="lazy" src="media-benajarafe/02-salon/02-detalle-chimenea.jpg" data-alt="photo1_1" alt="Fireplace detail"></a><figcaption data-text="photo1_1">Fireplace detail</figcaption></figure></div></section>
+<section class="photo-zone"><h3 data-text="zone2">Bedrooms</h3><div class="gallery"><figure><a href="media-benajarafe/03-dormitorios/01-cama-doble.png"><img loading="lazy" src="media-benajarafe/03-dormitorios/01-cama-doble.png" data-alt="photo2_0" alt="Double bedroom"></a><figcaption data-text="photo2_0">Double bedroom</figcaption></figure><figure><a href="media-benajarafe/03-dormitorios/02-dos-camas.png"><img loading="lazy" src="media-benajarafe/03-dormitorios/02-dos-camas.png" data-alt="photo2_1" alt="Twin bedroom"></a><figcaption data-text="photo2_1">Twin bedroom</figcaption></figure><figure><a href="media-benajarafe/03-dormitorios/03-despacho-con-cama.png"><img loading="lazy" src="media-benajarafe/03-dormitorios/03-despacho-con-cama.png" data-alt="photo2_2" alt="Study with a single bed"></a><figcaption data-text="photo2_2">Study with a single bed</figcaption></figure></div></section>
+<section class="photo-zone"><h3 data-text="zone3">Kitchen</h3><div class="gallery"><figure><a href="media-benajarafe/04-cocina/01-cocina-y-mesa.png"><img loading="lazy" src="media-benajarafe/04-cocina/01-cocina-y-mesa.png" data-alt="photo3_0" alt="Kitchen and dining table"></a><figcaption data-text="photo3_0">Kitchen and dining table</figcaption></figure><figure><a href="media-benajarafe/04-cocina/02-cocina-con-nevera.png"><img loading="lazy" src="media-benajarafe/04-cocina/02-cocina-con-nevera.png" data-alt="kitchenFridge" alt="Kitchen and fridge"></a><figcaption data-text="kitchenFridge">Kitchen and fridge</figcaption></figure></div></section>
+<section class="photo-zone"><h3 data-text="zone4">Bathroom</h3><div class="gallery"><figure><a href="media-benajarafe/05-bano/01-lavabo.png"><img loading="lazy" src="media-benajarafe/05-bano/01-lavabo.png" data-alt="photo4_0" alt="Bathroom sink"></a><figcaption data-text="photo4_0">Bathroom sink</figcaption></figure><figure><a href="media-benajarafe/05-bano/02-ducha.jpg"><img loading="lazy" src="media-benajarafe/05-bano/02-ducha.jpg" data-alt="photo4_1" alt="Indoor shower"></a><figcaption data-text="photo4_1">Indoor shower</figcaption></figure></div></section>
+<section class="photo-zone"><h3 data-text="zone5">Beach and surroundings</h3><div class="gallery"><figure><a href="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/01-playa-de-dia.jpg" data-alt="photo5_0" alt="Beach in daylight"></a><figcaption data-text="photo5_0">Beach in daylight</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/02-paseo-al-atardecer.jpg" data-alt="photo5_1" alt="Promenade at sunset"></a><figcaption data-text="photo5_1">Promenade at sunset</figcaption></figure><figure><a href="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg"><img loading="lazy" src="media-benajarafe/06-playa-y-entorno/03-bajada-a-la-playa.jpg" data-alt="beachRoute" alt="1 min down to the beach"></a><figcaption data-text="beachRoute">1 min down to the beach</figcaption></figure></div></section><section class="photo-zone"><h3 data-text="videoTitle">Videos</h3><div class="gallery"><figure><video controls playsinline preload="metadata" aria-labelledby="video0"><source src="media-benajarafe/20240503_092250.mp4" type="video/mp4"></video><figcaption id="video0" data-text="video0">Video 1</figcaption></figure><figure><video controls playsinline preload="metadata" aria-labelledby="video1"><source src="media-benajarafe/20260331_124504.mp4" type="video/mp4"></video><figcaption id="video1" data-text="video1">Video 2</figcaption></figure></div></section></section>
+<section class="wrap section" id="location"><h2 data-text="locationTitle">Location</h2><p data-text="villageWalk">The village centre is less than 10 minutes away on foot along the coastal path. There you’ll find a pharmacy, a bakery, a fishmonger, a supermarket and restaurants.</p><p data-text="malagaDrive">Málaga city centre is about 20 minutes away by car.</p><p data-text="bikes">Bicycles are available.</p><iframe class="location-map" title="Approximate location in Benajarafe" loading="lazy" src="https://maps.google.com/maps?q=Benajarafe%2C%20M%C3%A1laga&amp;z=14&amp;output=embed"></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Benajarafe%2C%20M%C3%A1laga" data-text="mapLink">Open map</a></section>
+<section class="contact section" id="contact"><div class="wrap">
+<h2 data-text="contact">Plan your stay</h2><p data-text="contactText">Tell Paula your dates and how many people are coming. Ask about availability and rates for your stay.</p><p data-text="stayOptions">Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.</p><p><a href="https://www.airbnb.es/rooms/1629619211544969269" data-text="airbnbBooking">View on Airbnb</a></p>
+<div class="actions"><a id="whatsapp" class="primary" href="https://wa.me/34627464300">WhatsApp</a><a id="email" href="mailto:Paula.bravobanderas@gmail.com" data-text="email">Email Paula</a></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>Costa del Sol · Benajarafe, Málaga</span><span data-text="season">Winter stays</span></div></footer>
+<script>
+const translations = {
+  "en": {
+    "season": "Winter stays",
+    "months": "October to May",
+    "title": "Winter by the Mediterranean",
+    "intro": "A detached house for your exclusive use in Benajarafe, Málaga. The long-stay winter rental covers the main house for 4–5 guests.",
+    "dates": "Ask about your dates",
+    "explore": "Explore the house",
+    "house": "The main house",
+    "home": "Make yourself at home",
+    "heat": "Radiators and a fireplace",
+    "heatText": "Come home to radiator heating and a fireplace after a walk by the sea. The house has solar panels.",
+    "pool": "Pool",
+    "poolText": "Take a break outside by the pool.",
+    "beach": "Beach nearby",
+    "beachText": "Benajarafe beach is a one-minute walk from the house.",
+    "photos": "The house in photos",
+    "contact": "Plan your stay",
+    "contactText": "Tell Paula your dates and how many people are coming. Ask about availability and rates for your stay.",
+    "email": "Email Paula",
+    "language": "Choose a language",
+    "message": "Hi Paula, I’m interested in a winter stay in Benajarafe. Could you tell me about availability and rates?",
+    "zone0": "Exterior",
+    "photo0_0": "Pool in daylight",
+    "photo0_1": "Covered dining terrace",
+    "photo0_2": "House and pool",
+    "photo0_3": "Sun loungers",
+    "photo0_4": "Outdoor shower",
+    "zone1": "Living room",
+    "photo1_0": "Living room with fireplace",
+    "photo1_1": "Fireplace detail",
+    "zone2": "Bedrooms",
+    "photo2_0": "Double bedroom",
+    "photo2_1": "Twin bedroom",
+    "photo2_2": "Study with a single bed",
+    "zone3": "Kitchen",
+    "photo3_0": "Kitchen and dining table",
+    "zone4": "Bathroom",
+    "photo4_0": "Bathroom sink",
+    "photo4_1": "Indoor shower",
+    "zone5": "Beach and surroundings",
+    "photo5_0": "Beach in daylight",
+    "photo5_1": "Promenade at sunset",
+    "videoTitle": "Videos",
+    "video0": "Video 1",
+    "video1": "Video 2",
+    "winterTitle": "A winter in Málaga",
+    "winterIntro": "Spend a few weeks or a few months in Benajarafe. The Costa del Sol averages 325 days of sunshine a year. Start the day with a walk along the seafront, have lunch on the covered terrace and light the fireplace when the evening turns cool. Benajarafe is a small, welcoming village with all the everyday services you need.",
+    "workTitle": "Working from Benajarafe",
+    "workIntro": "The separate study has fibre internet for remote work and two desks, each with two monitors and an office chair. Just plug in your laptop.",
+    "weekendTitle": "Beyond the working week",
+    "weekendIntro": "Spend a day in Torre del Mar, the old town of Vélez-Málaga, Frigiliana or Nerja.",
+    "houseLayout": "The main house has three bedrooms, one set up as an office. There is one bathroom on each floor and a third by the pool.",
+    "kitchenFridge": "Kitchen and fridge",
+    "beachRoute": "1 min down to the beach",
+    "porchNight": "Front porch at night",
+    "poolNight": "Pool at night",
+    "locationTitle": "Location",
+    "villageWalk": "The village centre is less than 10 minutes away on foot along the coastal path. There you’ll find a pharmacy, a bakery, a fishmonger, a supermarket and restaurants.",
+    "bikes": "Bicycles are available.",
+    "mapTitle": "Approximate location in Benajarafe",
+    "mapLink": "Open map",
+    "malagaDrive": "Málaga city centre is about 20 minutes away by car.",
+    "stayOptions": "Short stays can be booked through Airbnb. For medium and long stays, ask Paula about discounted packages.",
+    "airbnbBooking": "View on Airbnb"
+  },
+  "es": {
+    "season": "Estancias de invierno",
+    "months": "Octubre a mayo",
+    "title": "Un invierno junto al Mediterráneo",
+    "intro": "Casa unifamiliar de uso exclusivo en Benajarafe, Málaga. El alquiler de larga estancia en invierno incluye la casa principal para 4–5 huéspedes.",
+    "dates": "Consulta tus fechas",
+    "explore": "Conoce la casa",
+    "house": "La casa principal",
+    "home": "Siéntete como en casa",
+    "heat": "Radiadores y chimenea",
+    "heatText": "Al volver de pasear junto al mar, tienes calefacción por radiadores y chimenea. La casa cuenta con paneles solares.",
+    "pool": "Piscina",
+    "poolText": "Descansa al aire libre junto a la piscina.",
+    "beach": "Playa cerca",
+    "beachText": "La playa de Benajarafe está a un minuto andando desde la casa.",
+    "photos": "La casa en fotos",
+    "contact": "Organiza tu estancia",
+    "contactText": "Cuéntale a Paula qué fechas te interesan y cuántas personas sois. Pregúntale por disponibilidad y precio para tu estancia.",
+    "email": "Escribe a Paula",
+    "language": "Elige un idioma",
+    "message": "Hola, Paula. Me interesa una estancia de invierno en Benajarafe. ¿Me puedes informar sobre disponibilidad y precios?",
+    "zone0": "Exterior",
+    "photo0_0": "Piscina de día",
+    "photo0_1": "Porche comedor",
+    "photo0_2": "Fachada y piscina",
+    "photo0_3": "Zona de tumbonas",
+    "photo0_4": "Ducha exterior",
+    "zone1": "Salón",
+    "photo1_0": "Salón con chimenea",
+    "photo1_1": "Detalle de la chimenea",
+    "zone2": "Dormitorios",
+    "photo2_0": "Dormitorio con cama doble",
+    "photo2_1": "Dormitorio con dos camas",
+    "photo2_2": "Despacho con cama individual",
+    "zone3": "Cocina",
+    "photo3_0": "Cocina y mesa",
+    "zone4": "Baño",
+    "photo4_0": "Lavabo",
+    "photo4_1": "Ducha interior",
+    "zone5": "Playa y entorno",
+    "photo5_0": "Playa de día",
+    "photo5_1": "Paseo al atardecer",
+    "videoTitle": "Vídeos",
+    "video0": "Vídeo 1",
+    "video1": "Vídeo 2",
+    "winterTitle": "Un invierno en Málaga",
+    "winterIntro": "Instálate unas semanas o unos meses en Benajarafe. Con una media de 325 días de sol al año en la Costa del Sol, apetece empezar el día con un paseo junto al mar y comer en el porche. Si refresca al caer la tarde, puedes encender la chimenea. Benajarafe es un pueblo pequeño y acogedor, con todos los servicios que necesitas para el día a día.",
+    "workTitle": "Teletrabajar desde Benajarafe",
+    "workIntro": "El despacho tiene conexión de fibra para teletrabajar y dos mesas, cada una con dos monitores y silla de oficina. Solo tienes que conectar tu portátil.",
+    "weekendTitle": "Cuando cierras el portátil",
+    "weekendIntro": "Puedes dedicar un día a visitar Torre del Mar, el casco histórico de Vélez-Málaga, Frigiliana o Nerja.",
+    "houseLayout": "La casa principal tiene tres dormitorios, uno de ellos dedicado a oficina. Hay un baño en cada planta y un tercero junto a la piscina.",
+    "kitchenFridge": "Cocina con nevera",
+    "beachRoute": "Bajada a la playa",
+    "porchNight": "Porche delantero de noche",
+    "poolNight": "Piscina de noche",
+    "locationTitle": "Ubicación",
+    "villageWalk": "El centro del pueblo está a menos de 10 minutos andando por la senda litoral. Allí encontrarás farmacia, panadería, pescadería, supermercado y restaurantes.",
+    "bikes": "Hay bicicletas disponibles.",
+    "mapTitle": "Ubicación aproximada en Benajarafe",
+    "mapLink": "Abrir mapa",
+    "malagaDrive": "El centro de Málaga está a unos 20 minutos en coche.",
+    "stayOptions": "Para estancias cortas, puedes reservar la casa en Airbnb. Para estancias medias y largas, consulta con Paula los paquetes con descuento.",
+    "airbnbBooking": "Ver en Airbnb"
+  },
+  "sv": {
+    "season": "Vinterboende",
+    "months": "Oktober till maj",
+    "title": "En vinter vid Medelhavet",
+    "intro": "Ett fristående hus i Benajarafe, Málaga, som ni har för er själva. För längre vintervistelser hyrs huvudhuset ut till 4–5 gäster.",
+    "dates": "Fråga om dina datum",
+    "explore": "Upptäck huset",
+    "house": "Huvudhuset",
+    "home": "Känn dig som hemma",
+    "heat": "Element och öppen spis",
+    "heatText": "Efter en promenad vid havet väntar värmen från elementen och den öppna spisen. Huset har solpaneler.",
+    "pool": "Pool",
+    "poolText": "Koppla av utomhus vid poolen.",
+    "beach": "Nära stranden",
+    "beachText": "Det tar en minut att gå från huset till stranden i Benajarafe.",
+    "photos": "Huset i bilder",
+    "contact": "Planera din vistelse",
+    "contactText": "Berätta för Paula vilka datum du är intresserad av och hur många ni är. Fråga om tillgänglighet och pris för er vistelse.",
+    "email": "Mejla Paula",
+    "language": "Välj språk",
+    "message": "Hej Paula! Jag är intresserad av en vintervistelse i Benajarafe. Kan du berätta vad som är ledigt och vad det kostar?",
+    "zone0": "Utomhus",
+    "photo0_0": "Poolen i dagsljus",
+    "photo0_1": "Täckt utematplats",
+    "photo0_2": "Huset och poolen",
+    "photo0_3": "Solstolar",
+    "photo0_4": "Utomhusdusch",
+    "zone1": "Vardagsrum",
+    "photo1_0": "Vardagsrum med öppen spis",
+    "photo1_1": "Närbild på öppna spisen",
+    "zone2": "Sovrum",
+    "photo2_0": "Sovrum med dubbelsäng",
+    "photo2_1": "Sovrum med två enkelsängar",
+    "photo2_2": "Arbetsrum med enkelsäng",
+    "zone3": "Kök",
+    "photo3_0": "Kök med matbord",
+    "zone4": "Badrum",
+    "photo4_0": "Handfat",
+    "photo4_1": "Dusch inomhus",
+    "zone5": "Strand och omgivningar",
+    "photo5_0": "Stranden i dagsljus",
+    "photo5_1": "Strandpromenaden i solnedgången",
+    "videoTitle": "Videor",
+    "video0": "Video 1",
+    "video1": "Video 2",
+    "winterTitle": "En vinter i Málaga",
+    "winterIntro": "Bo några veckor eller månader i Benajarafe. Costa del Sol har i genomsnitt 325 soldagar om året. Börja dagen med en promenad vid havet, ät lunch på den täckta terrassen och tänd en brasa när kvällen blir sval. Benajarafe är en liten, trivsam by med all service du behöver i vardagen.",
+    "workTitle": "Jobba på distans från Benajarafe",
+    "workIntro": "Det separata arbetsrummet har fiberuppkoppling för distansarbete och två skrivbord med två skärmar och en kontorsstol vid varje plats. Det är bara att ansluta din bärbara dator.",
+    "weekendTitle": "När du stänger datorn",
+    "weekendIntro": "Ta en dagstur till Torre del Mar, den gamla stadskärnan i Vélez-Málaga, Frigiliana eller Nerja.",
+    "houseLayout": "Huvudhuset har tre sovrum, varav ett används som arbetsrum. Det finns ett badrum på varje våning och ett tredje vid poolen.",
+    "kitchenFridge": "Kök med kylskåp",
+    "beachRoute": "Gatan ner till stranden",
+    "porchNight": "Verandan på kvällen",
+    "poolNight": "Poolen på kvällen",
+    "locationTitle": "Läge",
+    "villageWalk": "Det tar mindre än tio minuter att gå till byns centrum längs kuststigen. Där finns apotek, bageri, fiskaffär, mataffär och restauranger.",
+    "bikes": "Cyklar finns tillgängliga.",
+    "mapTitle": "Ungefärligt läge i Benajarafe",
+    "mapLink": "Öppna kartan",
+    "malagaDrive": "Det tar ungefär 20 minuter med bil till centrala Málaga.",
+    "stayOptions": "Kortare vistelser kan bokas via Airbnb. Fråga Paula om rabatterade paket för medellånga och längre vistelser.",
+    "airbnbBooking": "Visa på Airbnb"
+  },
+  "nb": {
+    "season": "Vinteropphold",
+    "months": "Oktober til mai",
+    "title": "En vinter ved Middelhavet",
+    "intro": "En enebolig i Benajarafe, Málaga, som dere har for dere selv. For lengre vinteropphold leies hovedhuset ut til 4–5 gjester.",
+    "dates": "Spør om datoene dine",
+    "explore": "Se huset",
+    "house": "Hovedhuset",
+    "home": "Føl deg hjemme",
+    "heat": "Radiatorer og peis",
+    "heatText": "Etter en tur langs sjøen kan dere varme dere med radiatorer og peis. Huset har solcellepaneler.",
+    "pool": "Basseng",
+    "poolText": "Slapp av ute ved bassenget.",
+    "beach": "Nær stranden",
+    "beachText": "Det tar ett minutt å gå fra huset til stranden i Benajarafe.",
+    "photos": "Huset i bilder",
+    "contact": "Planlegg oppholdet",
+    "contactText": "Fortell Paula hvilke datoer du ønsker og hvor mange dere er. Spør om ledige datoer og pris for oppholdet.",
+    "email": "Send e-post til Paula",
+    "language": "Velg språk",
+    "message": "Hei Paula! Jeg er interessert i et vinteropphold i Benajarafe. Kan du si litt om ledige datoer og priser?",
+    "zone0": "Uteområder",
+    "photo0_0": "Bassenget i dagslys",
+    "photo0_1": "Overbygd spiseplass",
+    "photo0_2": "Huset og bassenget",
+    "photo0_3": "Solsenger",
+    "photo0_4": "Utedusj",
+    "zone1": "Stue",
+    "photo1_0": "Stue med peis",
+    "photo1_1": "Nærbilde av peisen",
+    "zone2": "Soverom",
+    "photo2_0": "Soverom med dobbeltseng",
+    "photo2_1": "Soverom med to enkeltsenger",
+    "photo2_2": "Arbeidsrom med enkeltseng",
+    "zone3": "Kjøkken",
+    "photo3_0": "Kjøkken med spisebord",
+    "zone4": "Bad",
+    "photo4_0": "Servant",
+    "photo4_1": "Innendørs dusj",
+    "zone5": "Strand og nærområde",
+    "photo5_0": "Stranden i dagslys",
+    "photo5_1": "Strandpromenaden ved solnedgang",
+    "videoTitle": "Videoer",
+    "video0": "Video 1",
+    "video1": "Video 2",
+    "winterTitle": "En vinter i Málaga",
+    "winterIntro": "Bo noen uker eller måneder i Benajarafe. Costa del Sol har i gjennomsnitt 325 soldager i året. Start dagen med en tur langs sjøen, spis lunsj på den overbygde terrassen og fyr i peisen når kvelden blir kjølig. Benajarafe er et lite, trivelig sted med alt du trenger i hverdagen.",
+    "workTitle": "Jobb fra Benajarafe",
+    "workIntro": "Det separate arbeidsrommet har fiberinternett for hjemmekontor og to skrivebord med to skjermer og en kontorstol ved hver plass. Bare koble til den bærbare PC-en din.",
+    "weekendTitle": "Når du lukker PC-en",
+    "weekendIntro": "Ta en dagstur til Torre del Mar, gamlebyen i Vélez-Málaga, Frigiliana eller Nerja.",
+    "houseLayout": "Hovedhuset har tre soverom, hvorav ett er innredet som kontor. Det er ett bad i hver etasje og et tredje ved bassenget.",
+    "kitchenFridge": "Kjøkken med kjøleskap",
+    "beachRoute": "Veien ned til stranden",
+    "porchNight": "Verandaen om kvelden",
+    "poolNight": "Bassenget om kvelden",
+    "locationTitle": "Beliggenhet",
+    "villageWalk": "Det tar under ti minutter å gå til sentrum langs kyststien. Der finner du apotek, bakeri, fiskebutikk, dagligvarebutikk og restauranter.",
+    "bikes": "Sykler er tilgjengelige.",
+    "mapTitle": "Omtrentlig beliggenhet i Benajarafe",
+    "mapLink": "Åpne kartet",
+    "malagaDrive": "Det tar omtrent 20 minutter å kjøre til Málaga sentrum.",
+    "stayOptions": "Korte opphold kan bestilles via Airbnb. Spør Paula om rabatterte pakker for mellomlange og lengre opphold.",
+    "airbnbBooking": "Se på Airbnb"
+  },
+  "da": {
+    "season": "Vinterophold",
+    "months": "Oktober til maj",
+    "title": "En vinter ved Middelhavet",
+    "intro": "Et fritliggende hus i Benajarafe, Málaga, som I har for jer selv. Til længere vinterophold udlejes hovedhuset til 4–5 gæster.",
+    "dates": "Spørg om dine datoer",
+    "explore": "Se huset",
+    "house": "Hovedhuset",
+    "home": "Føl dig hjemme",
+    "heat": "Radiatorer og pejs",
+    "heatText": "Efter en tur langs havet kan I få varmen med radiatorerne og pejsen. Huset har solpaneler.",
+    "pool": "Pool",
+    "poolText": "Slap af udendørs ved poolen.",
+    "beach": "Tæt på stranden",
+    "beachText": "Der er ét minuts gang fra huset til stranden i Benajarafe.",
+    "photos": "Huset i billeder",
+    "contact": "Planlæg dit ophold",
+    "contactText": "Fortæl Paula, hvilke datoer du overvejer, og hvor mange I er. Spørg om ledige datoer og pris for opholdet.",
+    "email": "Send en mail til Paula",
+    "language": "Vælg sprog",
+    "message": "Hej Paula! Jeg er interesseret i et vinterophold i Benajarafe. Kan du fortælle mig om ledige datoer og priser?",
+    "zone0": "Udendørs",
+    "photo0_0": "Poolen i dagslys",
+    "photo0_1": "Overdækket spiseplads",
+    "photo0_2": "Huset og poolen",
+    "photo0_3": "Liggestole",
+    "photo0_4": "Udendørsbruser",
+    "zone1": "Stue",
+    "photo1_0": "Stue med pejs",
+    "photo1_1": "Nærbillede af pejsen",
+    "zone2": "Soveværelser",
+    "photo2_0": "Soveværelse med dobbeltseng",
+    "photo2_1": "Soveværelse med to enkeltsenge",
+    "photo2_2": "Arbejdsværelse med enkeltseng",
+    "zone3": "Køkken",
+    "photo3_0": "Køkken med spisebord",
+    "zone4": "Badeværelse",
+    "photo4_0": "Håndvask",
+    "photo4_1": "Indendørs bruser",
+    "zone5": "Strand og omgivelser",
+    "photo5_0": "Stranden i dagslys",
+    "photo5_1": "Strandpromenaden ved solnedgang",
+    "videoTitle": "Videoer",
+    "video0": "Video 1",
+    "video1": "Video 2",
+    "winterTitle": "En vinter i Málaga",
+    "winterIntro": "Bo et par uger eller nogle måneder i Benajarafe. Costa del Sol har i gennemsnit 325 solskinsdage om året. Begynd dagen med en gåtur langs havet, spis frokost på den overdækkede terrasse og tænd op i pejsen, når aftenen bliver kølig. Benajarafe er en lille, hyggelig by med alt det, du har brug for i hverdagen.",
+    "workTitle": "Arbejd fra Benajarafe",
+    "workIntro": "Det separate arbejdsværelse har fibernet til hjemmearbejde og to skriveborde med to skærme og en kontorstol ved hver plads. Du skal bare tilslutte din bærbare computer.",
+    "weekendTitle": "Når du lukker computeren",
+    "weekendIntro": "Tag på en dagstur til Torre del Mar, den gamle bydel i Vélez-Málaga, Frigiliana eller Nerja.",
+    "houseLayout": "Hovedhuset har tre soveværelser, hvoraf det ene er indrettet som kontor. Der er et badeværelse på hver etage og et tredje ved poolen.",
+    "kitchenFridge": "Køkken med køleskab",
+    "beachRoute": "Vejen ned til stranden",
+    "porchNight": "Verandaen om aftenen",
+    "poolNight": "Poolen om aftenen",
+    "locationTitle": "Beliggenhed",
+    "villageWalk": "Der er under ti minutters gang til byens centrum ad kyststien. Her finder du apotek, bageri, fiskehandler, supermarked og restauranter.",
+    "bikes": "Der er cykler til rådighed.",
+    "mapTitle": "Omtrentlig placering i Benajarafe",
+    "mapLink": "Åbn kortet",
+    "malagaDrive": "Der er cirka 20 minutters kørsel til centrum af Málaga.",
+    "stayOptions": "Korte ophold kan bookes via Airbnb. Spørg Paula om pakkeløsninger med rabat til mellemlange og længere ophold.",
+    "airbnbBooking": "Se på Airbnb"
+  }
+};
+const languageButtons = document.querySelectorAll('nav button');
+function setLanguage(language) {
+  const copy = translations[language];
+  document.documentElement.lang = language;
+  document.title = 'Costa del Sol · ' + copy.season;
+  document.querySelector('.location-map').title = copy.mapTitle;
+  document.querySelector('meta[name="description"]').content = copy.intro;
+  document.querySelector('nav').setAttribute('aria-label', copy.language);
+  document.querySelectorAll('[data-text]').forEach(element => {
+    element.textContent = copy[element.dataset.text];
+  });
+  document.querySelectorAll('[data-alt]').forEach(image => { image.alt = copy[image.dataset.alt]; });
+  languageButtons.forEach(button => {
+    button.setAttribute('aria-pressed', String(button.lang === language));
+  });
+  const message = encodeURIComponent(copy.message);
+  document.querySelector('#whatsapp').href = 'https://wa.me/34627464300?text=' + message;
+  document.querySelector('#email').href = 'mailto:Paula.bravobanderas@gmail.com?subject=' +
+    encodeURIComponent('Costa del Sol · ' + copy.season) + '&body=' + message;
+}
+languageButtons.forEach(button => {
+  button.addEventListener('click', () => setLanguage(button.lang));
+});
+setLanguage('en');
+</script>
+</body>
+</html>
